@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+ <head>
+   <title>Toot Box</title>
+   <script src="../js/tootbox.js"></script>
+   <link rel="stylesheet" href="../css/tootbox.css">
+ </head>
+
+ <body style="background-color: #444b5e; font-family: arial;">
+   <div class="navigation-bar">
+      <div id="avatar"></div>
+
+      <div style="flex: 1 1 auto; margin-left: 8px; height: 50px;">
+        <strong id="display_name" style="font-weight: 500; display: block; color: #fff; font: inherit; font-size: 18px;"></strong>
+        <p id="user_name" style="font-size: 15px; margin: 0px;"></p>
+      </div>
+   </div>
+   <textarea id="toottext" cols="30" rows="10" maxlength="500" placeholder="ますと" style='margin: 5px;
+   margin-top: 10px;
+   -webkit-border-top-left-radius: 5px;
+   -webkit-border-top-right-radius: 5px;
+   -webkit-border-bottom-left-radius: 5px;
+   -webkit-border-bottom-right-radius: 5px; border: none; font-size: 15px;'></textarea>
+   <button class="button" onclick= "toot_send()" style="font-family: inherit; display: inline-block; width: auto; position: relative; box-sizing: border-box;text-align: center; border: 10px none; font-size: 14px; font-weight: 500; letter-spacing: 0px; padding: 0px 16px; height: 36px; cursor: pointer; line-height: 36px; border-radius: 4px; text-decoration: none; color: #fff; background-color: #1b86d3; float: right; margin-right: 10px;">どーん！</button>
+</body>
+</html>
