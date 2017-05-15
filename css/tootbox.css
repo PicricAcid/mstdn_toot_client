@@ -1,0 +1,50 @@
+
+.navigation-bar {
+    padding: 10px;
+    display: -webkit-box;
+    display: flex;
+    flex-shrink: 0;
+    cursor: default;
+    color: #9baec8;
+}
+
+.compose-form_buttons {
+    padding: 10px;
+    background: #ebebeb;
+    box-shadow: inset 0 5px 5px rgba(0,0,0,0.05);
+    border-radius: 0 0 4px 4px;
+    display: -webkit-box;
+    display: flex
+}
+
+.text-icon-button {
+    color: #707b97;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 11px;
+    padding: 0 3px;
+    line-height: 27px;
+    outline: 0;
+}
+
+.autosuggest-textarea {
+    position: relative;
+}
+
+.autosuggest-textarea_textarea {
+    height: 100px;
+    background: #fff;
+    border-radius: 4px 4px 0 0;
+    padding-bottom: 0;
+    padding-right: 32px;
+}
+    
+.compose-form_modifiers {
+    color: #282c37;
+    font-family: inherit;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 0 0 4px 0;
+}
