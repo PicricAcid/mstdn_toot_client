@@ -1,5 +1,8 @@
-
-const token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+let token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+const envToken = process.env.MASTODON_TOKEN
+if (envToken && envToken.length > 0) {
+  token = envToken
+}
 
 function toot_send() {
   const url = 'https://mstdn-workers.com/api/v1/statuses'
